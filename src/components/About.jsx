@@ -34,10 +34,10 @@ export default function About() {
             Over the years, I’ve had the opportunity to work on a diverse range of projects, from enterprise-scale systems to personal innovation initiatives, building robust, scalable, and user-centric applications. 
             My professional journey includes an internship at
             <span className="text-teal-500 font-semibold"> Jayam Solutions</span>,  where I contributed to backend and frontend development as well as database management in a dynamic, fast-paced environment, Prior to that, I worked at
-            <span className="text-teal-500 font-semibold"> ValueMomentum</span> as an Automation Engineer and Guidewire Tester.,
+            <span className="text-teal-500 font-semibold"> ValueMomentum</span> as an Automation Engineer and Guidewire Tester,
             gaining hands-on experience across  
             <span className="text-teal-500 font-semibold"> Software Development Life Cycle (SDLC)</span>, 
-            from requirements analysis and design to development, testing, and deployment.
+            from requirement analysis and design to development, testing, and deployment.
              These experiences have strengthened my technical foundation, adaptability, and problem-solving skills. 
           </p>
 
