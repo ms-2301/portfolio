@@ -53,7 +53,7 @@ export default function Projects() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-            <span className="text-white">Academic and personal projects</span>
+            <span className="text-white">Academic and Personal Projects</span>
           </h2>
           <div className="h-1 w-20 bg-primary mb-12"></div>
         </motion.div>
