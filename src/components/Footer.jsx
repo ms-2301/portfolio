@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope, FaHeart, FaAccessibleIcon } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaHeart } from "react-icons/fa";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

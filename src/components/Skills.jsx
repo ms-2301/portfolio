@@ -7,7 +7,7 @@ import {
   FaGitAlt,
   FaDatabase,
 } from "react-icons/fa";
-import { SiJavascript, SiDotnet, SiTailwindcss, SiApachekafka, Si42 } from "react-icons/si";
+import { SiJavascript, SiTailwindcss, SiApachekafka } from "react-icons/si";
 import GuidewireIcon from "./icons/GuidewireIcon";
 
 const skills = [
