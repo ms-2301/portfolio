@@ -90,8 +90,7 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-white-400">04.</span>{" "}
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
             <span className="text-white">Get In Touch</span>
           </h2>
           <div className="h-1 w-20 bg-primary mx-auto mb-6"></div>

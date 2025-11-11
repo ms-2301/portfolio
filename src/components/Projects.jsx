@@ -52,8 +52,7 @@ export default function Projects() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-white-400">03.</span>{" "}
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
             <span className="text-white">Academic and personal projects</span>
           </h2>
           <div className="h-1 w-20 bg-primary mb-12"></div>
