@@ -14,7 +14,7 @@ export default function About() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
             <span className="text-white" >About Me</span>
           </h2>
-          <div className="h-1 w-20 bg-primary mb-12"></div>
+          <div className="h-1 w-20 mb-12"></div>
         </motion.div>
 
         <motion.div

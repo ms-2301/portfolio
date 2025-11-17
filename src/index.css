@@ -8,6 +8,7 @@ body {
   @apply bg-gradient-to-b from-blue-900 via-purple-800 to-purple-700 text-white;
   font-family: 'Inter', system-ui, sans-serif;
   scroll-behavior: smooth;
+ 
 }
 
 /* Smooth scroll */

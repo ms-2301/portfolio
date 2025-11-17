@@ -55,7 +55,7 @@ export default function Projects() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
             <span className="text-white">Academic and Personal Projects</span>
           </h2>
-          <div className="h-1 w-20 bg-primary mb-12"></div>
+          <div className="h-1 w-20 mb-12"></div>
         </motion.div>
 
         <div className="space-y-12">

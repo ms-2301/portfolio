@@ -93,7 +93,7 @@ export default function Contact() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
             <span className="text-white">Get In Touch</span>
           </h2>
-          <div className="h-1 w-20 bg-primary mx-auto mb-6"></div>
+          <div className="h-1 w-20  mx-auto mb-6"></div>
           <p className="text-gray-200 text-lg max-w-3xl mx-auto leading-relaxed">
             I'm open to opportunities in <span className="text-teal-100 font-semibold">Frontend, Backend, or Full-Stack development.</span> 
             Whether you have a question or just want to say hi, I'll try my best to get back to you!

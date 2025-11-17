@@ -48,7 +48,7 @@ export default function Skills() {
 
             <span className="text-white">Skills & Technologies</span>
           </h2>
-          <div className="h-1 w-20 bg-primary mb-12"></div>
+          <div className="h-1 w-20 mb-12"></div>
         </motion.div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
