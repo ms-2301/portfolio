@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 body {
-  @apply bg-gradient-to-b from-purple-900 via-purple-600 to-purple-500 text-white;
+  @apply bg-gradient-to-b from-blue-900 via-purple-800 to-purple-700 text-white;
   font-family: 'Inter', system-ui, sans-serif;
   scroll-behavior: smooth;
 }
