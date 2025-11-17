@@ -13,9 +13,9 @@ export default function App() {
   const [unlocked, setUnlocked] = useState(false);
   const [started, setStarted] = useState(false);
 
-  if (!unlocked) {
+ /* if (!unlocked) {
     return <PebbleGate onUnlock={() => setUnlocked(true)} />;
-  }
+  }*/
 
   return (
     <>

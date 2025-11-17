@@ -37,7 +37,7 @@ const PebbleRevealGame = ({ onUnlock }) => {
     const pebbles = [];
     const colors = ["#ef4444", "#f59e0b", "#10b981", "#3b82f6", "#8b5cf6", "#ec4899"];
     
-    for (let i = 0; i < 2500; i++) {
+    for (let i = 0; i < 1100; i++) {
       const radius = 8 + Math.random() * 8;
       const circle = Bodies.circle(
         Math.random() * width,
