@@ -43,7 +43,7 @@ export default function Contact() {
         const body = encodeURIComponent(
           `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
         );
-        const contactEmail = process.env.REACT_APP_CONTACT_EMAIL || "ravi@example.com";
+        const contactEmail = process.env.REACT_APP_CONTACT_EMAIL || "Mithila@example.com";
         window.location.href = `mailto:${contactEmail}?subject=${subject}&body=${body}`;
         setStatus({
           type: "info",
