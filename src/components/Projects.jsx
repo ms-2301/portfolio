@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: "Voter Turnout Analysis",
-    description: "Python-based data analysis project that correlates voter data with weather patterns and social media insights to identify trends and patterns.",
+    description: "Python based data analysis project that correlates voter data with weather patterns and social media insights to identify trends and patterns.",
     tech: ["Python", "Data Analysis", "Pandas", "Matplotlib"],
     featured: true,
   },
