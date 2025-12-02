@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Mix & Match",
     description: "A React Native mobile application that suggests outfit color combinations using  node.js backend and MongoDB database. Features real-time color analysis and personalized recommendations.",
-    tech: ["React Native", ".Node.js", "API Integration","EXPO","MongoDB","Git"],
+    tech: ["React Native", ".Node.js","TypeScript", "API Integration","EXPO","MongoDB","Git"],
     github: "https://github.com/ms-2301/MixMatch",
     featured: false,
   },
@@ -31,7 +31,7 @@ const projects = [
   {
     title: "COVID-19 Detector Using Frontal X-ray Imaged With Deep Learn",
     description: "Developed and trained a convolutional neural network (CNN) model using Keras and TensorFlow on Google Colab to classify COVID-19 infections from chest X-ray images.",
-    tech: ["Python", "Deep Learning", "Transfer Learning", "Keras", "TensorFlow"],
+    tech: ["Python", "Deep Learning", "Convolutional Neural Network", "Keras", "TensorFlow"],
     featured: true,
   },
   {
