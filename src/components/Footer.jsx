@@ -48,7 +48,7 @@ export default function Footer() {
             className="flex items-center gap-4 text-xl"
           >
             <motion.a
-              href="https://github.com/"
+              href="https://github.com/ms-2301"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-primary transition-colors"
@@ -58,7 +58,7 @@ export default function Footer() {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/"
+              href="https://www.linkedin.com/in/mithila-sudheera"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-primary transition-colors"
@@ -68,7 +68,7 @@ export default function Footer() {
               <FaLinkedin />
             </motion.a>
             <motion.a
-              href="mailto:ravi@example.com"
+              href="mailto:mithila12320@gmail.com"
               className="text-gray-400 hover:text-primary transition-colors"
               whileHover={{ scale: 1.2, y: -2 }}
               aria-label="Email"

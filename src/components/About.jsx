@@ -84,8 +84,8 @@ export default function About() {
           transition={{ delay: 0.6 }}
         >
           <motion.a
-            href="/resume.pdf"
-            download="Mithila_Sudheera_Singireddy_Resume.pdf"
+            href="/mithila s singireddy.pdf"
+            download="mithila s singireddy.pdf"
             className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-lg font-medium transition-all shadow-lg shadow-primary/50 hover:shadow-xl"
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}

@@ -67,7 +67,7 @@ export default function Navbar() {
           {/* Social Links - Desktop */}
           <div className="hidden md:flex items-center gap-4 text-xl">
             <motion.a
-              href="https://github.com/"
+              href="https://github.com/ms-2301"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-primary transition-colors"
@@ -76,7 +76,7 @@ export default function Navbar() {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/"
+              href="https://www.linkedin.com/in/mithila-sudheera"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-primary transition-colors"
@@ -122,7 +122,7 @@ export default function Navbar() {
               ))}
               <div className="flex gap-6 mt-8 text-2xl">
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/ms-2301"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-primary transition-colors"
@@ -130,7 +130,7 @@ export default function Navbar() {
                   <FaGithub />
                 </a>
                 <a
-                  href="https://linkedin.com/in/"
+                  href="https://www.linkedin.com/in/mithila-sudheera"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-primary transition-colors"
