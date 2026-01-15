@@ -36,6 +36,11 @@ const skills = [
   {name: "Kubernetes", icon: FaNodeJs, color: "text-blue-700" },
   { name: "CI/CD", icon: FaGitAlt, color: "text-green-700" },
   { name: "Agile Methodologies", icon: FaGitAlt, color: "text-purple-700" },
+  {name: "Jenkins", icon: FaNodeJs, color: "text-red-700" },
+  {name: "Java", icon: SiJavascript, color: "text-red-600" },
+  {name: "C#", icon: SiJavascript, color: "text-purple-600" },
+  {name: "Python", icon: FaPython, color: "text-yellow-600" },
+  {name: "Shell Scripting", icon: FaNodeJs, color: "text-green-600" },
 
 ];
 
