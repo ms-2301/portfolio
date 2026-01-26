@@ -6,12 +6,10 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import PebbleGate from "./components/PebbleGate"; 
 
 
 export default function App() {
-  const [unlocked, setUnlocked] = useState(false);
-  const [started, setStarted] = useState(false);
+
 
  /* if (!unlocked) {
     return <PebbleGate onUnlock={() => setUnlocked(true)} />;
