@@ -33,7 +33,7 @@ export default function About() {
             Over the years, I’ve had the opportunity to work on a diverse range of projects, from enterprise-scale systems to personal innovation initiatives, building robust, scalable, and user-centric applications. 
             My professional journey includes an internship at
             <span className="text-teal-500 font-semibold"> Jayam Solutions</span>,  where I contributed to backend and frontend development as well as database management in a dynamic, fast-paced environment, Prior to that, I worked at
-            <span className="text-teal-500 font-semibold"> ValueMomentum</span> as an Automation Engineer and Guidewire Tester,
+            <span className="text-teal-500 font-semibold"> ValueMomentum</span> as an Automation Engineer and Guidewire Developer Intern,
             gaining hands-on experience across  
             <span className="text-teal-500 font-semibold"> Software Development Life Cycle (SDLC)</span>, 
             from requirement analysis and design to development, testing, and deployment.
@@ -89,8 +89,8 @@ export default function About() {
           transition={{ delay: 0.6 }}
         >
           <motion.a
-            href="/Mithila.S.pdf"
-            download="Mithila.S.pdf"
+            href="/MithilaSingireddy.pdf"
+            download="MithilaSingireddy.pdf"
             className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-lg font-medium transition-all shadow-lg shadow-primary/50 hover:shadow-xl"
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
