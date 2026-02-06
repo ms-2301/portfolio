@@ -1,31 +1,7 @@
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
 
-const skills = [
-  { label: "Languages", items: ["Python", "Java", "JavaScript", "TypeScript", "C#"] },
-  {
-    label: "AI & ML",
-    items: [
-      "RAG Architecture",
-      "Amazon Bedrock",
-      "AWS SageMaker",
-      "LangGraph",
-      "LLM Orchestration",
-      "Prompt Engineering",
-      "Vector Databases",
-      "OpenSearch",
-      "MCP",
-      "A2A",
-    ],
-  },
-  { label: "Frontend", items: ["React", "Next.js", "Redux Toolkit", "WCAG Accessibility", "Secure UI Architecture"] },
-  {
-    label: "Backend & Systems",
-    items: ["REST APIs", "GraphQL", "Microservices", "Kafka", "JWT", "Rate Limiting", "Event-Driven Systems"],
-  },
-  { label: "Cloud & DevOps", items: ["AWS (Bedrock, SageMaker, EC2, Lambda, S3, IAM)", "Docker", "Kubernetes", "GitLab CI/CD", "GitHub Actions", "Azure"] },
-  { label: "Databases", items: ["MongoDB (Index Optimization)", "MySQL"] },
-];
+
 
 const highlights = [
   {
