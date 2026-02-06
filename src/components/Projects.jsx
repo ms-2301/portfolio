@@ -10,27 +10,27 @@ const projects = [
     featured: false,
   },
   {
-    title: "Voter Turnout Analysis",
-    description: "Python based data analysis project that correlates voter data with weather patterns and social media insights to identify trends and patterns.",
-    tech: ["Python", "Data Analysis", "Pandas", "Matplotlib"],
-    featured: true,
-  },
-  {
     title: "Kafka Stream Processor",
-    description: "Real-time data streaming pipeline built with Node.js and Apache Kafka for processing high-volume event streams with low latency.",
+    description: "Architected a low-latency event-driven streaming pipeline using Apache Kafka to process high volume data streams. Implemented partitioning and consumer group strategies to ensure reliable event delivery and scalable throughput in distributed environments.",
     tech: ["Node.js", "Kafka", "Stream Processing"],
 
     featured: true,
   },
   {
+    title: "Voter Turnout Analysis",
+    description: "Built a data-driven analytics system to correlate voter turnout with external signals such as weather and social activity. Performed statistical analysis and visualized trends to uncover behavioral insights.",
+    tech: ["Python", "Data Analysis", "Pandas", "Matplotlib"],
+    featured: true,
+  },
+  {
     title: "Face Recognition payment App",
-    description: "A mobile application that uses facial recognition technology for secure payments, built with python and a custom backend.",
+    description: "Developed a secure facial recognition-based authentication system for mobile payments. Integrated computer vision pipelines with backend authorization services to enable real-time identity verification and secure transaction processing.",
     tech: ["Python", "Face Recognition", "Payment Integration", "Stripe"],
     featured: true,
   },
   {
     title: "COVID-19 Detector Using Frontal X-ray Imaged With Deep Learn",
-    description: "Developed and trained a convolutional neural network (CNN) model using Keras and TensorFlow on Google Colab to classify COVID-19 infections from chest X-ray images.",
+    description: "Designed and trained a convolutional neural network for medical image classification, applying data augmentation and hyperparameter tuning to improve model generalization and diagnostic accuracy.",
     tech: ["Python", "Deep Learning", "Convolutional Neural Network", "Keras", "TensorFlow"],
     featured: true,
   },
