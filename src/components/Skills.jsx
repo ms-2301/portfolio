@@ -33,21 +33,7 @@ import GuidewireIcon from "./icons/GuidewireIcon";
 // Removed duplicates, fixed icons (Next.js/TS/Java), and grouped to keep UI readable.
 
 const skillGroups = [
-  {
-    title: "AI & ML Platforms",
-    items: [
-      { name: "RAG Architecture", icon: FaCogs, color: "text-teal-300" },
-      { name: "Amazon Bedrock", icon: FaAws, color: "text-orange-400" },
-      { name: "AWS SageMaker", icon: FaAws, color: "text-amber-400" },
-      { name: "LangGraph", icon: FaCogs, color: "text-emerald-300" },
-      { name: "LLM Orchestration", icon: FaCogs, color: "text-cyan-300" },
-      { name: "Prompt Engineering", icon: FaCodeBranch, color: "text-sky-300" },
-      { name: "Vector Databases", icon: FaDatabase, color: "text-indigo-300" },
-      { name: "OpenSearch", icon: SiOpensearch, color: "text-blue-300" },
-      { name: "MCP", icon: FaCogs, color: "text-violet-300" },
-      { name: "A2A", icon: FaCogs, color: "text-fuchsia-300" },
-    ],
-  },
+
   {
     title: "Frontend",
     items: [
@@ -107,6 +93,21 @@ const skillGroups = [
       { name: "C#", icon: FaCogs, color: "text-purple-400" },
       { name: "Shell Scripting", icon: FaNodeJs, color: "text-green-400" },
       { name: "Spring Boot", icon: SiSpringboot, color: "text-green-500" },
+    ],
+  },
+    {
+    title: "AI & ML Platforms",
+    items: [
+      { name: "RAG Architecture", icon: FaCogs, color: "text-teal-300" },
+      { name: "Amazon Bedrock", icon: FaAws, color: "text-orange-400" },
+      { name: "AWS SageMaker", icon: FaAws, color: "text-amber-400" },
+      { name: "LangGraph", icon: FaCogs, color: "text-emerald-300" },
+      { name: "LLM Orchestration", icon: FaCogs, color: "text-cyan-300" },
+      { name: "Prompt Engineering", icon: FaCodeBranch, color: "text-sky-300" },
+      { name: "Vector Databases", icon: FaDatabase, color: "text-indigo-300" },
+      { name: "OpenSearch", icon: SiOpensearch, color: "text-blue-300" },
+      { name: "MCP", icon: FaCogs, color: "text-violet-300" },
+      { name: "A2A", icon: FaCogs, color: "text-fuchsia-300" },
     ],
   },
   {

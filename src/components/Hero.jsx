@@ -38,7 +38,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35, duration: 0.8 }}
         >
-          AI Engineer building reliable, production-ready systems.
+          Full-Stack Engineer building fast, scalable web applications.
         </motion.h2>
 
         <motion.p
@@ -47,8 +47,9 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.45 }}
         >
-          I build AI-powered applications end-to-end  from retrieval and model workflows to scalable backend services.
-          I care about security, performance and clean engineering that turns ideas into products.
+          I build end-to-end web applications from performant React SPAs and intuitive dashboards
+          to robust REST APIs, microservices, and cloud infrastructure. I care about clean code,
+          testability, and shipping features that make a real difference.
         </motion.p>
 
         <motion.div
@@ -120,7 +121,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.75 }}
         >
-          Master&apos;s in Computer Science • Illinois Institute of Technology • Uday Ram Partners LLC
+          Master&apos;s in Computer Science • Illinois Institute of Technology • AWS Certified • Uday Ram Partners LLC
         </motion.p>
       </motion.div>
 

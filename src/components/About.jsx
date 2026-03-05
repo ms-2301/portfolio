@@ -1,24 +1,22 @@
 import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
 
-
-
 const highlights = [
   {
-    metric: "42%",
-    text: "Improved contextual retrieval accuracy by architecting a production RAG platform with Bedrock + LangGraph + vector DBs.",
-  },
-  {
     metric: "30%",
-    text: "Reduced model latency by deploying real-time inference endpoints on AWS SageMaker.",
+    text: "Boosted SPA performance using Material UI optimization, lazy loading, code splitting, and React rendering tweaks in high-traffic financial apps.",
   },
   {
     metric: "40%",
-    text: "Increased backend throughput by removing distributed bottlenecks using Kafka and containerized microservices.",
+    text: "Reduced redundant API calls by centralizing state management with Redux Toolkit, improving app responsiveness and reliability.",
   },
   {
-    metric: "25%",
-    text: "Reduced production incidents by strengthening IAM controls, JWT auth, rate limiting, logging, and CI/CD governance.",
+    metric: "28%",
+    text: "Improved service reliability designing reusable REST APIs for policy, billing, and claims microservices processing thousands of daily transactions.",
+  },
+  {
+    metric: "35%",
+    text: "Improved data visibility for product and finance teams by building real-time analytics SPAs with Chart.js and React.",
   },
 ];
 
@@ -48,35 +46,32 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <p className="text-gray-100 text-base md:text-lg leading-relaxed">
-            Hi, I’m <span className="text-teal-400 font-semibold">Mithila Sudheera Singireddy</span> an{" "}
-            <span className="text-teal-400 font-semibold">Associate Software Engineer</span> with{" "}
-            <span className="text-teal-400 font-semibold">3+ years</span> of experience building scalable, AI driven,
-            cloud-native platforms using <span className="text-teal-400 font-semibold">Python, Java, React</span>, and
-            distributed system design principles.
+            Hi, I'm <span className="text-teal-400 font-semibold">Mithila Sudheera Singireddy</span> a{" "}
+            <span className="text-teal-400 font-semibold">Full-Stack Software Engineer</span> with{" "}
+            <span className="text-teal-400 font-semibold">3+ years</span> of experience building cloud-based and web
+            applications in financial and enterprise systems. I specialize in delivering production features end-to-end
+            in Agile/Scrum teams across time zones.
           </p>
 
           <p className="text-gray-100 text-base md:text-lg leading-relaxed">
-            I specialize in <span className="text-teal-400 font-semibold">RAG-based LLM systems</span> and modern AI
-            platform engineering including Amazon Bedrock,{" "}
-            AWS SageMaker, vector databases, and Kubernetes based
-            microservices. I enjoy designing secure, high-performance architectures that align technical decisions with
-            real business outcomes.
+            On the frontend, I build fast, accessible{" "}
+            <span className="text-teal-400 font-semibold">React SPAs</span> with{" "}
+            <span className="text-teal-400 font-semibold">
+              Material UI, Redux Toolkit, TypeScript, and Next.js
+            </span>
+            , with a strong focus on performance, responsive design, and WCAG 2.2 accessibility. On the backend, I
+            design scalable{" "}
+            <span className="text-teal-400 font-semibold">REST APIs and microservices</span> using{" "}
+            <span className="text-teal-400 font-semibold">Node.js, Java, C#, and Kafka</span>, backed by SQL Server and
+            MongoDB.
           </p>
 
-          <p className="text-gray-100 text-base md:text-lg leading-relaxed">
-            Currently at <span className="text-indigo-300 font-semibold">Uday Ram Partners LLC</span>, I build
-            production-grade AI systems, orchestrate multi-agent workflows, and harden platforms with security and CI/CD
-            governance. Previously, I worked at{" "}
-            <span className="text-teal-400 font-semibold">Jayam Solutions</span> (React + distributed backends with Kafka)
-            and <span className="text-teal-400 font-semibold">ValueMomentum</span> (React modernization + Spring Boot
-            services), strengthening my end-to-end engineering skills across the SDLC.
-          </p>
 
           <p className="text-gray-100 text-base md:text-lg leading-relaxed">
-            I hold a <span className="text-teal-400 font-semibold">Master’s in Computer Science</span> from{" "}
-            <span className="text-teal-400 font-semibold">Illinois Institute of Technology</span> and I’m certified as an{" "}
-            <span className="text-teal-400 font-semibold">AWS Certified Machine Learning – Associate</span> (with Microsoft
-            Azure Machine Learning certification as well).
+            I hold a <span className="text-teal-400 font-semibold">Master's in Computer Science</span> from{" "}
+            <span className="text-teal-400 font-semibold">Illinois Institute of Technology</span> and I'm certified as
+            an <span className="text-teal-400 font-semibold">AWS Certified Machine Learning – Associate</span> with a
+            Microsoft Azure Machine Learning certification as well.
           </p>
 
           {/* Highlights */}
@@ -103,8 +98,6 @@ export default function About() {
               ))}
             </div>
           </div>
-
-          {/* Skills */}
         </motion.div>
 
         {/* Download */}
